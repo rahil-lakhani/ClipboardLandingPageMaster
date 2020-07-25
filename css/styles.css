@@ -1,0 +1,446 @@
+/****** Default & General Styling ******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/*** Wrapper ***/
+
+.wrapper {
+    background-color: white;
+    max-width: 375px;
+}
+
+/** Introduction **/
+
+header {
+    background: url("../images/bg-header-mobile.png") no-repeat;
+    padding: 100px 30px;
+}
+
+header .logo {
+    margin: 20px auto;
+    width: 120px;
+}
+
+header h1 {
+    font-size: 170%;
+    margin: 30px auto 15px;
+}
+
+header h4 {
+    color: hsl(201, 11%, 66%);
+    font-size: 87%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 7px 40px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 100%;
+    padding: 16px 0 11px;
+    margin: 25px 3%;
+    outline: none;
+    width: 94%;
+}
+
+.IOS-btn {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 5px 1px -1px hsl(171, 46%, 44%);
+}
+
+.Mac-btn {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 5px 1px -1px hsl(243, 95%, 65%);
+}
+
+.IOS-btn:hover {
+    background-color: hsl(171, 76%, 54%);
+    box-shadow: 0 5px 4px 2px hsl(171, 46%, 44%);
+}
+
+.Mac-btn:hover {
+    background-color: hsl(233, 100%, 79%);
+    box-shadow: 0 5px 5px 1px hsl(243, 95%, 65%);
+}
+
+/** Main**/
+
+main {
+    padding: 0 30px 130px;
+}
+
+main h2 {
+    font-size: 160%;
+}
+
+main h5 {
+    color: hsl(201, 11%, 66%);
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+main h3 {
+    font-size: 125%;
+}
+
+main p {
+    color: hsl(201, 11%, 66%);
+    font-size: 85%;
+    line-height: 1.5;
+    margin: 10px 10px 40px;
+}
+
+/* Snippets Tracking */
+
+.snippets_section {
+    margin-top: 25px;
+}
+
+.computer-image {
+    width: 95%;
+    margin: 45px auto;
+}
+
+/* Accessing Clipboard */
+
+.clipboard_section {
+    margin-top: 170px;
+}
+
+.devices-image {
+    width: 105%;
+    margin: 40px -10px 0;
+}
+
+/* Workflow Supercharge */
+
+.supercharge_section {
+    margin-top: 80px;
+}
+
+.supercharge_section h5 {
+    margin-bottom: 55px;
+}
+
+.workflow_images {
+    margin: 25px auto 35px;
+}
+
+/* Logos */
+
+.logo_section {
+    margin-top: 90px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal_logo {
+    width: 45%;
+    margin: 30px auto;
+}
+
+.small_logo {
+    width: 35%;
+    margin: 30px auto;
+}
+
+/* CTA */
+
+.CTA_section {
+    margin: 110px 3px 0;
+}
+
+.CTA_section .IOS-btn {
+    margin-top: 45px;
+}
+
+/** Footer **/
+
+footer,
+.QLcolumns {
+    background-color: hsl(210, 10%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo {
+    margin: 50px auto 30px;
+    width: 55px;
+}
+
+footer a {
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    line-height: 2.75;
+}
+
+footer a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+/* Social Media Presence */
+
+address span {
+    margin: 30px 18px;
+}
+
+.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+
+.icon-facebook {
+    background-image: url(../images/icon-facebook.svg);
+}
+
+.icon-facebook:hover {
+    background-image: url(../images/icon-facebook\ -\ Cyan.svg);
+}
+
+.icon-twitter {
+    background-image: url(../images/icon-twitter.svg);
+    width: 27px;
+    height: 23px;
+    vertical-align: top;
+}
+
+.icon-twitter:hover {
+    background-image: url(../images/icon-twitter\ -\ Cyan.svg);
+}
+
+.icon-instagram {
+    background-image: url(../images/icon-instagram.svg);
+}
+
+.icon-instagram:hover {
+    background-image: url(../images/icon-instagram\ -\ Cyan.svg);
+}
+
+/** Attribution **/
+
+.attribution {
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(171, 66%, 46%);
+    ;
+    font-weight: 600;
+}
+
+.attribution strong {
+    color: hsl(233, 100%, 69%);
+}
+
+
+@media (min-width:960px) {
+
+    body {
+        background-color: white;
+    }
+
+    /*** Wrapper ***/
+
+    .wrapper {
+        max-width: 1440px;
+    }
+
+    /** Introduction **/
+
+    header {
+        background: url("../images/bg-header-desktop.png") no-repeat;
+        padding: 100px 360px;
+    }
+
+    header .logo {
+        margin: 25px auto;
+        width: 18%;
+    }
+
+    header h1 {
+        font-size: 220%;
+    }
+
+    header h4 {
+        font-size: 100%;
+    }
+
+    .header_btns {
+        display: flex;
+        padding: 0 95px;
+    }
+
+    button {
+        font-size: 95%;
+        margin: 1% 2%;
+    }
+
+    /** Main**/
+
+    main {
+        padding: 0 0 130px;
+    }
+
+    main h2 {
+        font-size: 175%;
+    }
+
+    main h5 {
+        font-size: 95%;
+        margin: 15px 25%;
+    }
+
+    main p {
+        line-height: 2;
+    }
+
+    /* Snippets Tracking */
+
+    .tracking {
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .computer-image {
+        width: 52.5%;
+        margin: 0;
+        position: relative;
+        right: 30px;
+    }
+
+    .tracking_features {
+        text-align: left;
+        margin: 70px 17% 0 5.5%;
+    }
+
+    .tracking_features p {
+        margin-left: 0;
+    }
+
+    /* Accessing Clipboard */
+
+    .clipboard_section {
+        margin-top: 140px;
+    }
+
+    .devices-image {
+        width: 63%;
+        margin: 70px 0 0;
+    }
+
+    /* Workflow Supercharge */
+
+    .supercharge_section {
+        margin-top: 60px;
+    }
+
+    .workflow_features {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .Wfeature {
+        width: 26%;
+        margin: 0 0.5%;
+    }
+
+    /* Logos */
+
+
+    .logo_section {
+        margin-top: 80px;
+    }
+
+    .logos {
+        flex-direction: row;
+        margin: 0 7%;
+    }
+
+    .normal_logo {
+        width: 13%;
+    }
+
+    .small_logo {
+        width: 10%;
+    }
+
+    /* CTA */
+
+    .CTA_btns {
+        display: flex;
+        padding: 0 33%;
+        margin-top: 45px;
+    }
+
+    .CTA_section .IOS-btn {
+        margin-top: 0;
+    }
+
+    /** Footer **/
+
+    footer {
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 25%;
+        align-items: flex-start;
+        padding: 35px 4%;
+    }
+
+    .QLcolumns {
+        align-items: flex-start;
+    }
+
+    footer .logo {
+        margin: 7px 0 0 0;
+    }
+
+    footer a {
+        line-height: 2.25;
+    }
+
+    /* Social Media Presence */
+
+    address {
+        margin-left: 50%;
+    }
+
+    address span {
+        margin: 30px 6% 0;
+    }
+
+}
+
+/****** END ******/
